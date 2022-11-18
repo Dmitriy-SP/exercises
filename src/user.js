@@ -8,7 +8,7 @@ export default (gameField) => {
   do {
     userAnswer = readlineSync.question('your move? ');
     userMove = correctAnswer.filter((cell) => cell === userAnswer);
-  } while (userMove.length === 0)
+  } while (userMove.length === 0);
   const userI = userAnswer.slice(0, 1) - 1;
   const userJ = userAnswer.slice(1, 2) - 1;
   gameField[userI][userJ] = 'o';
