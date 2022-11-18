@@ -1,0 +1,26 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "game": "bin/game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitriy-SP/tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitriy-SP/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/Dmitriy-SP/tic-tac-toe#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
