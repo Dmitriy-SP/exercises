@@ -1,7 +1,7 @@
 import { isWin, gerRandom } from './utils.js';
 
 export const calculationAIWin = (gameField, playerIcon, enemyIcon) => {
-  const virtualField = Array.from(gameField);
+  const virtualField = gameField.map((line) => line.map((cell) => cell));
   for (let i = 0; i < virtualField.length; i += 1) {
     for (let j = 0; j < virtualField[0].length; j += 1) {
       if (virtualField[i][j] !== playerIcon && virtualField[i][j] !== enemyIcon) {

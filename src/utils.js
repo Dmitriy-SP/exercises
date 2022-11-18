@@ -5,12 +5,8 @@ export const gerRandom = (minNumber, maxNumber) => {
 };
 
 const isFill = (gameField) => {
-  for (let i = 0; i < gameField.length; i += 1) {
-    for (let j = 0; j < gameField[i].length; j += 1) {
-      if (gameField[i][j] === ' ') { return false; }
-    }
-  }
-  return true;
+  const emptyCell = gameField.map((line) => line.filter((cell) => (cell !== 'x' && cell !== 'o'))).flat();
+  return !(emptyCell.length > 0);
 };
 
 export const isWin = (gameField, playerIcon) => {
@@ -36,11 +32,10 @@ export const isWin = (gameField, playerIcon) => {
 };
 
 export const printField = (gameField) => {
-  for (let i = 0; i < gameField.length; i += 1) { console.log(gameField[i]); }
+  gameField.map((line) => console.log(line));
 };
 
 export default (gameField) => {
-  if (isWin(gameField, 'x') || isWin(gameField, 'o')) { return true; }
-  if (isFill(gameField)) { return true; }
+  if (isWin(gameField, 'x') || isWin(gameField, 'o') || isFill(gameField)) { return true; }
   return false;
 };
