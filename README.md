@@ -1,5 +1,21 @@
-###  tic-tac-toe
-common logic for  tic-tac-toe - game.
+# exercises
 
-###  Maintainability Badge
-<a href="https://codeclimate.com/github/Dmitriy-SP/tic-tac-toe/maintainability"><img src="https://api.codeclimate.com/v1/badges/4ce050fb28ecb67b5db8/maintainability" /></a>
+Collection of small tasks and challenges.
+
+#
+- [Installation](#Installation)
+- [tic-tac-toe](#tic-tac-toe)
+
+## Installation
+
+```
+git clone git@github.com:Dmitriy-SP/frontend-project-46.git
+make install
+npm link
+```
+The `npm link` command may require you to run it with sudo.
+
+###  tic-tac-toe
+For today represents the common logic of the game.
+For the presentation, a console version has been added.
+You can launched it by the `tic-tac-toe-game` command.

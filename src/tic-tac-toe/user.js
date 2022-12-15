@@ -7,7 +7,8 @@ export default (gameField) => {
   let userMove;
   do {
     userAnswer = readlineSync.question('your move? ');
-    userMove = correctAnswer.filter((cell) => cell === userAnswer);
+    const constAnswer = userAnswer;
+    userMove = correctAnswer.filter((cell) => cell === constAnswer);
   } while (userMove.length === 0);
   const userI = userAnswer.slice(0, 1) - 1;
   const userJ = userAnswer.slice(1, 2) - 1;
