@@ -21,10 +21,10 @@ The `npm link` command may require you to run it with sudo.
 Some exercises are too small so they are included in a separate directory.
 Here is only a list of them, for more information see their [README](https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/README.md).
 <ul>
-    <li>[fizzBuzz](https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/fizzBuzz.js)</li>
-    <li>[fibonacci](https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/fibonacci.js)</li>
-    <li>[numberFlip](https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/numberFlip.js)</li>
-    <li>[happyNumber](https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/happyNumber.js)</li>
+    <li><a href="https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/fizzBuzz.js">fizzBuzz</a></li>
+    <li><a href="https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/fibonacci.js">fibonacci</a></li>
+    <li><a href="https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/numberFlip.js">numberFlip</a></li>
+    <li><a href="https://github.com/Dmitriy-SP/exercises/tree/main/src/smallTasks/happyNumber.js">happyNumber</a></li>
 </ul>
 
 ##  tic-tac-toe
